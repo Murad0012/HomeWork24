@@ -303,7 +303,7 @@ header{
 .main6-inside{
     width: 900px;
     height: 300px;
-    padding-left: 120px;
+    padding-left: 170px;
     list-style: none;
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 60px;
@@ -312,6 +312,7 @@ header{
 
 .main6-inside h2{
     margin-bottom: 20px;
+    font-weight: lighter;
 }
 
 .main6-inside p{
@@ -324,5 +325,124 @@ header{
     border-radius:5px;
     margin-top: 40px;
     color:blue;
-    font-weight: bold;
+    font-weight: lighter;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-inside{
+    width: 80%;
+    margin-top: 50px;
+}
+
+.footer-inside img{
+    margin-bottom: 45px;
+}
+
+.footer-inside-div1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.footer-inside-div1-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-inside-div1-2 div:nth-child(1) li{
+    margin-right: 140px;
+}
+
+.footer-inside-div1-2 div:nth-child(2) li{
+    margin-right: 102px;
+}
+
+
+.footer-inside-div1-2 li ,.footer-inside-div1-1 li{
+    display: inline;
+    list-style: none;
+}
+
+.footer-inside-div1-1 li a,.footer-inside-div1-2 li a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.icon{
+    border: 1px solid gray;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-inside-div2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+.footer-inside-div2-1{
+    display: flex;
+    gap: 20px;
+}
+
+.footer-inside-div2-1 li{
+    list-style: none;
+}
+
+.footer-inside-div2-1 li a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color:blue;
+    font-size: 20px;
+}
+
+.footer-inside-div2-2{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.footer-inside-div2-2 li{
+    list-style: none;
+}
+
+.footer-inside-div2-2 li button{
+    padding: 10px;
+    border: 1px solid blue;
+    border-radius: 4px;
+    color:blue;
+    font-weight: 550;
+    width: 240px;
+    height: 52px;
+}
+
+.footer-inside-div3 li{
+    list-style: none;
+}
+
+.footer-inside-div3 li a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+}
+
+.footer-inside-div3-1 li{
+    display: inline-block;
+    margin-right: 32px;
+    margin-top: 50px;
+    margin-bottom: 150px;
 }
